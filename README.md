@@ -74,7 +74,6 @@ API ini dapat diakses menggunakan Postman, baik secara lokal maupun melalui link
        "name": "Riana",
        "email": "riana@example.com",
        "password": "secret123",
-       "password_confirmation": "secret123"
      }
      ```
 
@@ -113,5 +112,6 @@ API ini dapat diakses menggunakan Postman, baik secara lokal maupun melalui link
      ```json
      {
        "email": "riana@example.com",
-       "password": "secret123"
+       "password": "secret123",
      }
+     ```
