@@ -11,3 +11,7 @@ Route::middleware('auth:api')->group(function () {
     Route::apiResource('/categories', CategoryController::class);
     Route::apiResource('/articles', ArticleController::class);
 });
+
+Route::get('/api/documentation', function () {
+    return view('l5-swagger::index');
+});
