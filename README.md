@@ -109,9 +109,8 @@ API ini dapat diakses menggunakan Postman, baik secara lokal maupun melalui link
 ---
 
 ## Login Credential Dummy
-     ```json
-     {
-       "email": "riana@example.com",
-       "password": "secret123",
-     }
-     ```
+```json
+{
+  "email": "riana@example.com",
+  "password": "secret123"
+}
