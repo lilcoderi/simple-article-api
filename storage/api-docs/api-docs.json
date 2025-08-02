@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "http://127.0.0.1:8000",
+            "url": "https://simple-article-api.up.railway.app",
             "description": "Local API Server"
         }
     ],
