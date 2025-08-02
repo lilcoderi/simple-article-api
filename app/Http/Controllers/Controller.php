@@ -12,12 +12,17 @@ use OpenApi\Annotations as OA;
  * @OA\Info(
  *     version="1.0.0",
  *     title="Simple Article API",
- *     description="API Documentation with JWT and Swagger on Laravel 12",
+ *     description="API Documentation with JWT and Swagger on Laravel 12"
  * )
  *
  * @OA\Server(
- *     url=L5_SWAGGER_CONST_HOST,
+ *     url="http://127.0.0.1:8000",
  *     description="Local API Server"
+ * )
+ *
+ * @OA\Server(
+ *     url="https://simple-article-api.up.railway.app",
+ *     description="Production API Server"
  * )
  *
  * @OA\SecurityScheme(
