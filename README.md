@@ -34,12 +34,13 @@ Project ini merupakan backend API sederhana yang menyediakan fitur:
    php artisan key:generate
 5. **Konfigurasi database**
    Buka file .env, lalu ubah nilai konfigurasi database sesuai lokal Anda
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=simple_article_db
-        DB_USERNAME=root
-        DB_PASSWORD=
+   ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=simple_article_db
+   DB_USERNAME=root
+   DB_PASSWORD=
 6. **Migrasi dan seed database**
    ```bash
    php artisan migrate --seed
@@ -109,8 +110,8 @@ API ini dapat diakses menggunakan Postman, baik secara lokal maupun melalui link
 ---
 
 ## Login Credential Dummy
-    ```json
-    {
-        "email": "riana@example.com",
-        "password": "secret123"
-    }
+     ```json
+     {
+       "email": "riana@example.com",
+       "password": "secret123"
+     }
