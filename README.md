@@ -1,5 +1,4 @@
 # Simple Article API 
-### By Riana Nur Anisa
 
 API ini dibangun menggunakan Laravel 12 dan menyediakan endpoint CRUD untuk artikel dan kategori, serta sistem autentikasi menggunakan JWT. Dokumentasi API dapat diakses melalui Swagger UI.
 
